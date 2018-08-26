@@ -1,0 +1,114 @@
+/*body {*/
+  /*background: url('https://wallpapercave.com/wp/dxXh4Ss.jpg') no-repeat !important;*/
+  /*background-size: cover !important;*/
+/*}*/
+#translateContainer {
+  background: #3e3d3b;
+  color:#f3f2f1;
+  width:250px;
+  position:fixed;
+  top:0;
+  right:0;
+  z-index: 99999;
+  padding: 5px 10px;
+  height: auto;
+  min-height: 50px;
+  resize: both;
+  border-radius: 5px;
+  font-style: italic;
+  border: 1px solid grey;
+  overflow-x: hidden;
+  overflow-y: auto;
+  box-shadow: 3px 3px grey;
+  text-shadow: 2px 2px black;
+}
+#closeBtn {
+  float: right;
+  font-weight: bold;
+  color:#fff;
+  font-size: 15px;
+  cursor:pointer;
+}
+.langDrpdwn, option {
+  display: block;
+  width: 100%;
+  border-radius: 5px;
+  margin:10px 0;
+  background: darkgrey;
+  font-weight: bold;
+  padding: 5px;
+  font-size: 15px;
+}
+
+.feedbackBtn{
+  color:#fff;
+  background: indianred;
+  width:100%;
+  border:1px solid #fff;
+  padding:2px;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  text-decoration: none;
+  text-align: center;
+}
+
+.feedbackBtn:hover{
+  background: #fff;
+  color:#1e2d80;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite; /* Safari */
+  animation: spin 2s linear infinite;
+}
+
+/* Safari */
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+svg{
+  width:20px;
+  height:20px;
+  right: 10px;
+  bottom: 10px;
+  position: absolute;
+
+}
+path{
+  fill:#fff;
+  /*color:#fff;*/
+  /*background: #fff;*/
+}
+
+img {
+  width:10%;
+  /*height:10*/
+}
+
+/*#masthead,*/
+/*#primary {*/
+  /*-webkit-filter: invert(100%);*/
+  /*filter: invert(100%);*/
+  /*background-color: #fff;*/
+  /*padding: 20px !important;*/
+/*}*/
+/*#masthead {*/
+  /*background: none;*/
+/*}*/
+/*#masthead img, #primary img {*/
+  /*-webkit-filter: invert(100%);*/
+  /*filter: invert(100%);*/
+/*}*/
