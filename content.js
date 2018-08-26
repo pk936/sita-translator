@@ -157,8 +157,12 @@ window.addEventListener("load", function(event) {
                                 // prevTranslatedText=text;
                             })
                         }else{
-                            translatedText.style.display = 'inherit';
-                            translatedText.innerText = selectedText.trim();
+                            translatedText.innerText = '';
+                            _node.style.top = 0;
+                            _node.style.left = 0;
+                            _node.style.display = 'none';
+                            // translatedText.style.display = 'inherit';
+                            // translatedText.innerText = selectedText.trim();
                         }
                     })
                 } else {
