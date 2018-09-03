@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Sita's Translator",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "It's a simple selection translator. No complex UI !",
   "content_scripts": [{
     "css": ["styles.css"],

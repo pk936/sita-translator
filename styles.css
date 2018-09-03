@@ -1,139 +1,145 @@
 /*body {*/
-  /*background: url('https://wallpapercave.com/wp/dxXh4Ss.jpg') no-repeat !important;*/
-  /*background-size: cover !important;*/
+  /*background: url('https://wallpapercave.com/wp/dxXh4Ss.jpg') no-repeat !important !important;*/
+  /*background-size: cover !important !important;*/
 /*}*/
 #translateContainer {
-  background: #3e3d3b;
-  width:250px;
-  position:fixed;
-  z-index: 99999999999999;
-  padding: 5px 10px;
-  height: auto;
-  min-height: 50px;
-  resize: both;
-  border-radius: 5px;
-  border: 1px solid grey;
-  overflow: visible;
-  /*overflow-x: hidden;*/
-  /*overflow-y: auto;*/
-  box-shadow: 3px 3px grey;
-  /*max-height: 100vh;*/
+  background: #3e3d3b !important;
+  width:250px !important;
+  position:fixed !important;
+  z-index: 99999999999999 !important;
+  padding: 5px 10px !important;
+  height: auto !important;
+  min-height: 50px !important;
+  resize: both !important;
+  border-radius: 5px !important;
+  border: 1px solid grey !important;
+  overflow: visible !important;
+  font-size:large !important;
+  /*overflow-x: hidden !important;*/
+  /*overflow-y: auto !important;*/
+  box-shadow: 3px 3px grey !important;
+  /*max-height: 100vh !important;*/
 }
 
 #translatedText{
-  color:#f3f2f1;
-  font-style: italic;
-  text-shadow: 2px 2px black;
-  overflow:auto;
-  height:auto;
-  max-height: 250px;
+  color:#f3f2f1 !important;
+  font-style: italic !important;
+  text-shadow: 2px 2px black !important;
+  overflow:auto !important;
+  height:auto !important;
+  max-height: 250px !important;
 }
 
 #closeBtn {
-  /*float: right;*/
-  font-weight: bold;
-  color:#fff;
-  font-size: 15px;
-  cursor:pointer;
+  /*float: right !important;*/
+  font-weight: bold !important;
+  color:#fff !important;
+  cursor:pointer !important;
 
-  border-radius: 50%;
-  height: 20px;
-  width: 20px;
-  text-align: center;
-  background: #3e3d3b;
-  top: -10px;
-  right: -15px;
-  padding: 5px;
+  padding: 0 !important;
+  height: 25px !important;
+  width: 25px !important;
+  font-size: 13px !important;
 
-  position: absolute;
-  overflow: visible;
+  border-radius: 50% !important;
+  text-align: center !important;
+  background: #3e3d3b !important;
+  top: -10px !important;
+  right: -15px !important;
+
+  position: absolute !important;
+  overflow: visible !important;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #closeBtn:hover{
   background: rgb(250, 167, 0) !important;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 .langDrpdwn, option {
-  display: block;
-  width: 100%;
-  border-radius: 5px;
-  margin:10px 0;
-  background: darkgrey;
-  font-weight: bold;
-  padding: 5px;
-  font-size: 15px;
+  display: block !important;
+  width: 100% !important;
+  border-radius: 5px !important;
+  margin:10px 0 !important;
+  background: darkgrey !important;
+  font-weight: bold !important;
+  padding: 5px !important;
+  font-size: 15px !important;
 }
 
 .feedbackBtn{
-  background: transparent;
+  background: transparent !important;
   color: #faa700 !important;
-  float:right;
-  /*right: 10px;*/
-  /*bottom: 5px;*/
-  /*position: absolute;*/
-  font-size: 14px;
-  border:0;
-  text-decoration: underline;
+  float:right !important;
+  /*right: 10px !important;*/
+  /*bottom: 5px !important;*/
+  /*position: absolute !important;*/
+  font-size: 14px !important;
+  border:0 !important;
+  text-decoration: underline !important;
 }
 
 .feedbackBtn:hover{
-  /*background: #fff !important;*/
-  /*color:#1e2d80 !important;*/
+  /*background: #fff !important !important;*/
+  /*color:#1e2d80 !important !important;*/
   text-decoration: underline !important;
 }
 
 .loader {
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite; /* Safari */
-  animation: spin 2s linear infinite;
+  border: 16px solid #f3f3f3 !important;
+  border-radius: 50% !important;
+  border-top: 16px solid #3498db !important;
+  width: 120px !important;
+  height: 120px !important;
+  -webkit-animation: spin 2s linear infinite !important; /* Safari */
+  animation: spin 2s linear infinite !important;
 }
 
 /* Safari */
 @-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
+  0% { -webkit-transform: rotate(0deg) !important; }
+  100% { -webkit-transform: rotate(360deg) !important; }
 }
 
 @keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
+  0% { transform: rotate(0deg) !important; }
+  100% { transform: rotate(360deg) !important; }
 }
 
 /*svg{*/
-  /*width:20px;*/
-  /*height:20px;*/
-  /*right: 10px;*/
-  /*bottom: 10px;*/
-  /*position: absolute;*/
+  /*width:20px !important;*/
+  /*height:20px !important;*/
+  /*right: 10px !important;*/
+  /*bottom: 10px !important;*/
+  /*position: absolute !important;*/
 
 /*}*/
 /*path{*/
-  /*fill:#fff;*/
-  /*!*color:#fff;*!*/
-  /*!*background: #fff;*!*/
+  /*fill:#fff !important;*/
+  /*!*color:#fff !important;*!*/
+  /*!*background: #fff !important;*!*/
 /*}*/
 
 /*img {*/
-  /*width:10%;*/
+  /*width:10% !important;*/
   /*!*height:10*!*/
 /*}*/
 
 /*#masthead,*/
 /*#primary {*/
-  /*-webkit-filter: invert(100%);*/
-  /*filter: invert(100%);*/
-  /*background-color: #fff;*/
-  /*padding: 20px !important;*/
+  /*-webkit-filter: invert(100%) !important;*/
+  /*filter: invert(100%) !important;*/
+  /*background-color: #fff !important;*/
+  /*padding: 20px !important !important;*/
 /*}*/
 /*#masthead {*/
-  /*background: none;*/
+  /*background: none !important;*/
 /*}*/
 /*#masthead img, #primary img {*/
-  /*-webkit-filter: invert(100%);*/
-  /*filter: invert(100%);*/
+  /*-webkit-filter: invert(100%) !important;*/
+  /*filter: invert(100%) !important;*/
 /*}*/
